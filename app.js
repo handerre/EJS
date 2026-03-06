@@ -11,7 +11,7 @@ const sqlite3 = require('sqlite3').verbose(); // Lar oss koble til og kjøre SQL
 const app = express(); // Initialiserer Express-appen
 
 // Setter portnummeret som serveren skal lytte på
-const PORT = 3000; // Standard port for lokal utvikling
+const PORT = 3001; // Standard port for lokal utvikling
 
 // Åpner/oppretter SQLite-databasefilen 'app.db' i prosjektmappen
 const db = new sqlite3.Database(path.join(__dirname, 'app.db')); // Oppretter/åpner databasefilen der data lagres
